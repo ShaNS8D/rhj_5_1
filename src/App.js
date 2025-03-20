@@ -1,4 +1,5 @@
 import Card from './components/Card';
+import Image from './components/Image';
 import './App.css';
 
 function App() {
@@ -11,7 +12,11 @@ function App() {
         description={description}
         path= "#"
       >
-        <img src="..." className="card-img-top" alt="Image cap" />
+        <Image
+            imgClass="card-img-top"
+            src=""
+            alt="Image cap"
+          />
       </Card>
       <Card 
         title='Special title treatment'
